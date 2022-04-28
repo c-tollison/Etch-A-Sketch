@@ -10,7 +10,7 @@ let colorButtonActive = true;
 let rainbowButtonActive = false;
 let eraserButtonActive = false;
 
-slider.addEventListener("click", () => {
+slider.addEventListener("change", () => {
 	removeGrid();
 	addGrid(slider.value);
 	setBlockListeners();
